@@ -27,10 +27,10 @@ export default class Main extends Component {
               <h1 className="hovers">I</h1>
               </RubberBand>
               <RubberBand>
-              <h1 className="hovers">m</h1>
+              <h1 className="hovers">'</h1>
               </RubberBand>
               <RubberBand>
-              <h1 className="hovers">'</h1>
+              <h1 className="hovers">m</h1>
               </RubberBand>
               <Bounce top>
               <img className='logo' src={logo}/>   

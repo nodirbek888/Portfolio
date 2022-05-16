@@ -50,7 +50,7 @@ export const Conatiner = styled.div`
     color: #F75633;
     font-size: 20px;
     cursor: pointer;
-    transition-duration: 1s;
+    transition-duration: 2s;
     outline: none;
     :hover{
       background: linear-gradient(120deg , #C11081 ,#F43549, #F75633);
