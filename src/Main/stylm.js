@@ -7,6 +7,7 @@ export const Conatiner = styled.div`
   justify-content: center;
   padding-left: 70px;
   flex-direction: column;
+  margin-left: 7%;
   .dew{
     font-size: 50px;
     font-family: sans-serif;
@@ -16,14 +17,9 @@ export const Conatiner = styled.div`
     display: flex;
   }
   .logo{
-    position: absolute;
-    top: 300px;
-    left: 300px;
-    width: 200px;
-    height: 200px;
-  }
-  .hh{
-    width: 100px;
+    margin: 15px 5px 0px 20px;
+    width: 80px;
+    height: 80px;
   }
   .hovers{
     color: white;
@@ -81,9 +77,9 @@ export const Conatiner = styled.div`
     }
   }
   .teghtmll{
-    position: absolute;
-    top: 900px;
-    right: 1690px;
+    /* position: absolute;
+    top: 900px; */
+    /* right: 1690px; */
     color: #505051;
     font-size: 30px;
     font-family: 'Dancing Script', cursive;
@@ -92,9 +88,10 @@ export const Conatiner = styled.div`
     }
   }
   .tegbody{
-    position: absolute;
+    /* position: absolute;
     top: 100px;
-    right: 1650px;
+    right: 1650px; */
+    margin-bottom: 100PX;
     color: #505051;
     font-size: 30px;
     font-family: 'Dancing Script', cursive;
@@ -115,42 +112,48 @@ export const Conatiner = styled.div`
     }
   }
   .tegh{
-    position: absolute;
+    /* position: absolute;
     top: 180px;
-    right: 1670px;
+    right: 1670px; */
+    margin-bottom: 10px;
+    margin-left: 20px;
     color: #505051;
-    font-size: 22px;
+    font-size: 27px;
     font-family: 'Dancing Script', cursive;
     :before{
       content: '<h1>';
     }
   }
   .teghh{
-    position: absolute;
+    /* position: absolute;
     top: 530px;
-    right: 950px;
+    right: 950px; */
+    margin-left: 20px;
+    margin-top: 100px;
     color: #505051;
-    font-size: 23px;
+    font-size: 27px;
     font-family: 'Dancing Script', cursive;
     :before{
       content: '</h1>';
     }
   }
   .tegp{
-    position: absolute;
-    top:560px;
+    /* position: absolute;
+    top:560px; */
     color: #505051;
-    font-size: 25px;
+    font-size: 29px;
+    margin-left: 10px;
     font-family: 'Dancing Script', cursive;
     :before{
       content: '<p>';
     }
   }
   .tegpp{
-    position: absolute;
-    top:630px;
+    /* position: absolute;
+    top:630px; */
     color: #505051;
-    font-size: 30px;
+    font-size: 24px;
+    margin-left: 400px;
     font-family: 'Dancing Script', cursive;
     :before{
       content: '</p>';

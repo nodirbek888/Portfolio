@@ -1,9 +1,11 @@
-import React, {Component} from "react";
+import React, {useState} from "react";
 import {Conatiner,WorkL ,Codei,Perm,Blogi,Homei,Facebook,Git,Inst} from './styles'
 import logo from '../Rasmlar/logo.png'
 import Bounce from 'react-reveal/Bounce';
-export default class Saidbar extends Component {
-  render(){
+// import Home from '../Homes/Home'
+import { SlideMultipleArrowRightDimensions } from "@styled-icons/fluentui-system-filled/SlideMultipleArrowRight";
+export const Saidbar = ()=> {
+  const [pages, setPages] = useState('homed')
     return(
       <Conatiner>
         <div className="top">
@@ -17,7 +19,8 @@ export default class Saidbar extends Component {
         </div>
         <div className="center">
         <Bounce>
-            <Homei/>
+          <Homei onClick={()=> setPages('homed')}/>
+          {/* {pages === 'homed' && <Home/>} */}
           </Bounce>
           <Bounce >
             <Codei/>
@@ -45,5 +48,5 @@ export default class Saidbar extends Component {
         </div>
       </Conatiner>
     )
-  }
 }
+export default Saidbar

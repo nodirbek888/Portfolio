@@ -1,16 +1,19 @@
 import React,{Component} from "react";
 import {Conatiner ,Tegs} from './stylm'
-import logo from '../Rasmlar/logo.png'
+import logo from '../Rasmlar/logos.png'
 import rasmleft from '../Rasmlar/rasmleft.png'
 import left from '../Rasmlar/left.png'
 import Bounce from 'react-reveal/Bounce';
 import RubberBand from 'react-reveal/RubberBand';
-export default class Main extends Component {
-  render() {
+const Main = () =>{
+  // render() {
     return(
       <Conatiner>
         <div className='top'>
           <div className='dew'>
+          <p className='teghtml'></p> 
+          <p className='tegbody'></p>
+          <p className='tegh'></p>
             <div className='text'>
               <RubberBand>
             <h1 className="hovers">H</h1>
@@ -35,9 +38,6 @@ export default class Main extends Component {
               <Bounce top>
               <img className='logo' src={logo}/>   
               </Bounce>
-              <RubberBand>
-              <h1 className="hh"></h1>
-              </RubberBand>
               <RubberBand>
               <h1 className="hovers">o</h1>
               </RubberBand>
@@ -103,19 +103,12 @@ export default class Main extends Component {
             <RubberBand>
               <h1 className="hovers">r</h1>
             </RubberBand>
-            </div>
-            <div>
-              <p className='teghtml'></p>
-              <p className='teghtmll'></p>
-              <p className='tegbody'></p>
-              <p className='tegbodyy'></p>
-              <p className='tegh'></p>
-              <p className='teghh'></p>
-              <p className='tegp'></p>
-              <p className='tegpp'></p>
+            <p className='teghh'></p>
             </div>
           </div>
+          <p className='tegp'></p>
           <p className="fron">Front End Developer / WordPres Expert</p>
+          <p className='tegpp'></p>
           <Bounce bottom>
           <button className="buttons">Contact me</button>
           </Bounce>
@@ -126,5 +119,6 @@ export default class Main extends Component {
         </div>
       </Conatiner>
     )
-  }
+  // }
 }
+export default Main

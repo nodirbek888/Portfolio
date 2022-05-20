@@ -16,6 +16,7 @@ export const Conatiner = styled.div`
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
+  position: fixed;
   .top{
     display: flex;
     align-items: center;
